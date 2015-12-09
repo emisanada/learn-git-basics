@@ -37,10 +37,9 @@ Git for Collaboration visa os alunos do segundo semana do curso, ou aqueles que 
 
 
 <a id="introduction" name="introduction"></a>
-# Introduction
+# Introdução
 
-The introduction to Git is aimed at the first week of the full time Founders & Coders course, or to those just starting out with git. The hope is that this introduction will cover all you need to know to start collaborating on code with your fellow teammates.
-
+A introdução ao Git é voltada a primeira semana do período integral do curso Fundadores & Codificadores, ou para quem está começando com o git. Espero que esta introdução cubra tudo o que você precisa saber para começar a colaborar com o código dos seus companheiros do time.
 
 <a id="terminology" name="terminology"></a>
 ## Terminologia
