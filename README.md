@@ -6,31 +6,31 @@ Comentários ou sugestões, no formato de Issue ou contribuições em forma de P
 
 Como estudante, se você ficar preso em qualquer ponto, por favor, abra uma Issue e eu vou tentar voltar para você o mais rapidamente possível. Se você preferir, sinta-se livre para contactar-me em Gitter. Quando a Issue for resolvida, faça uma Pull Request para o projeto.
 
-A introdução ao Git visa a primeira semana do período integral do curso Founders & Coders, ou para quem está começando com git. A esperança é que esta introdução irá cobrir tudo o que você precisa saber para começar a colaborar em código com os seus companheiros de time.
+A introdução ao Git visa a primeira semana do período integral do curso Founders & Coders, ou para quem está começando com git. A expectativa é que esta introdução ensine o que você precisa saber para começar a colaborar em código com os seus companheiros de time.
 
-Git para a colaboração visa os alunos do segundo semana do curso, ou aqueles que têm dominado a primeira seção. Mesmo que a maioria do conselho neste tutorial vai demorar um pouco para digerir - e na prática é essencial. Uma boa meta é compreender todos estes conceitos, e implementar, pelo menos, a maioria dessas dicas em seus projetos de colaboração antes de terminar o seu tempo como estudante de Founders & Coders.
+Git for Collaboration visa os alunos do segundo semana do curso, ou aqueles que têm dominado a primeira seção. Mesmo que a maioria do conselho neste tutorial vai demorar um pouco para digerir - e na prática é essencial. Uma boa meta é compreender todos estes conceitos, e implementar, pelo menos, a maioria dessas dicas em seus projetos de colaboração antes de terminar o seu tempo como estudante de Founders & Coders.
 
 
-# Contents
-#### [Introduction](#introduction)
-1. [Need to Know Terminology](#terminology)
-2. [Why Version Control](#version-control)
+# Conteúdo
+#### [Introdução](#introduction)
+1. [Precisamos saber as terminologias](#terminology)
+2. [Por que Controle de Versão?](#version-control)
 3. [Tutorial](#tutorial)
-	* [Getting Started](#getting-started)
-	* [Branching](#branching)
-	* [Making Changes](#changes)
-	* [Merging with Master](#merging)
-	* [Merge Conflicts](#conflicts)
-	* [Changing File Structure](#changing-file-structure)
-4. [Introducing Github Flow](#github-flow)
+	* [Começando](#getting-started)
+	* [Ramificando (Branch)](#branching)
+	* [Fazendo Mudanças](#changes)
+	* [Mesclando com Master](#merging)
+	* [Mesclando Conflitos](#conflicts)
+	* [Mudando a Estrutura do Arquivo](#changing-file-structure)
+4. [Iniciando com Github Flow](#github-flow)
 
 #### [Git for Collaboration](#git-collaboration)
-1. [Further terminology](#further-terminology)
-2. [The Timeline](#timeline)
-3. [Committing](#commits)
-    * [When should you commit](#when-commit)
-    * [Commit messages](#commit-message)
-    * [Merging commits](#merging-commits)
+1. [Mais algumas terminologias](#further-terminology)
+2. [A Linha do Tempo](#timeline)
+3. [Commitando](#commits)
+    * [Quando você precisa usar o commit](#when-commit)
+    * [Commitando Mensagens](#commit-message)
+    * [Mesclando commits](#merging-commits)
 
 #### [Resources](#resources)
 
