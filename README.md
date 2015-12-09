@@ -1,12 +1,14 @@
-# Introduction to Git and Version Control
+# Introdução ao Git e ao Controle de Versão
 
-This tutorial is targeted towards the students of courses at [Founders & Coders](http://foundersandcoders.org/). Feedback or Suggestions in the format of an issue or contributions as a pull request are appreciated.
+Este tutorial é voltado para os alunos de cursos na [Founders & Coders](http://foundersandcoders.org/). Feedback or Suggestions in the format of an issue or contributions as a pull request are appreciated.
 
-As a student, if you get stuck at any point, please open an issue and I will try to get back to you as soon as possible. If you would prefer, feel free to contact me on Gitter. When the issue is solved, do think about making a pull request to the project.
+Comentários ou sugestões, no formato de Issue ou contribuições em forma de Pull Request são bem-vindos.
 
-The introduction to Git is aimed at the first week of the full time Founders & Coders course, or to those just starting out with git. The hope is that this introduction will cover all you need to know to start collaborating on code with your fellow teammates.
+Como estudante, se você ficar preso em qualquer ponto, por favor, abra uma Issue e eu vou tentar voltar para você o mais rapidamente possível. Se você preferir, sinta-se livre para contactar-me em Gitter. Quando a Issue for resolvida, faça uma Pull Request para o projeto.
 
-Git for Collaboration is aimed at the second week students of the course, or those that have mastered the first section. Even though most of the advice in this tutorial will take a while to digest - and practise is essential. A good goal is to understand all these concepts, and implement at least most of these tips in your collaborative projects before finishing your time as a student at Founders & Coders.
+A introdução ao Git visa a primeira semana do período integral do curso Founders & Coders, ou para quem está começando com git. A esperança é que esta introdução irá cobrir tudo o que você precisa saber para começar a colaborar em código com os seus companheiros de time.
+
+Git para a colaboração visa os alunos do segundo semana do curso, ou aqueles que têm dominado a primeira seção. Mesmo que a maioria do conselho neste tutorial vai demorar um pouco para digerir - e na prática é essencial. Uma boa meta é compreender todos estes conceitos, e implementar, pelo menos, a maioria dessas dicas em seus projetos de colaboração antes de terminar o seu tempo como estudante de Founders & Coders.
 
 
 # Contents
