@@ -43,13 +43,13 @@ The introduction to Git is aimed at the first week of the full time Founders & C
 
 
 <a id="terminology" name="terminology"></a>
-## Terminology
+## Terminologia
 
-##### *Repository (repo)*
-Simply put, this is your project folder. This repository can be located locally (in your file system on your computer), or remotely (on Github). Either way, it is the same repository.
+##### *Repositório (repo)*
+Simplesmente coloque-o na pasta do seu projeto. Esse repositório pode ser localizado localmente (nos seus arquivos do sistema no seu computador), ou remotamente(no Github). De qualquer forma, é o mesmo repositório.
 
-##### *Version Control*
-We will use Git for this. A way of keeping track of changes in the code which makes it possible to work with multiple developers on the same repo.
+##### *Controle de Versão*
+Nós usaremos o Git para isso. É uma maneira de observar as mudanças no código o que possibilita trabalhar com multiplos desenvolvedores no mesmo repositório.
 
 ##### *Git*
 A version control system.
