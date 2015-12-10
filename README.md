@@ -51,19 +51,18 @@ Simplesmente coloque-o na pasta do seu projeto. Esse repositório pode ser local
 Nós usaremos o Git para isso. É uma maneira de observar as mudanças no código o que possibilita trabalhar com multiplos desenvolvedores no mesmo repositório.
 
 ##### *Git*
-A version control system.
+Um sistema de controle de versão.
 
 ##### *Github*
-A remote location where you can store you code, and which all the members of the team have access to. Think of it like a dropbox for code. One of the big differences however is most repositories on github are public. Anybody can see your code.
+Um local remoto onde você pode armazenar o seu código, e onde todos os membros da equipe têm acesso. Pense nisso como um dropbox para o código. Uma das grandes diferenças, no entanto, é que a maioria dos repositórios no GitHub são públicos. Qualquer um pode ver seu código.
 
 ##### *Commit*
-A way of saving your code at different points along the project. Unlike many tools you may have used however, all commits are saved. This creates a project history and a way to track changes.
+Uma maneira de salvar seu código em diferentes pontos ao longo do projeto. Ao contrário de muitas ferramentas que você pode ter usado no entanto, todos os commits são salvos. Isso cria um histórico do projeto e uma maneira de acompanhar as mudanças.
 
-##### *Branches*
-As you work on a git repo the first branch you are on is usually the default branch. This is often called `master`. If you start working on a section of the website (say the footer styling), it is best practise to create your own branch for that feature. Creating your own branch is like taking a copy of `master` and renaming it. When you commit, they will now be on that new branch only.
+##### *Ramificações (Branches)*
+Enquanto você trabalha em um repositório git o primeiro ramo em que está geralmente é a ramificação padrão. Ela é muitas vezes chamada de `master`. Se você começar a trabalhar em uma seção do site (por exemplo a estilização do rodapé), a melhor prática é você criar a sua própria ramificação para esse recurso. Criar a sua própria ramificação é como fazer uma cópia da `master` e renomeá-la. Quando você fizer um commit, suas mudanças agora estarão apenas nessa nova ramificação.
 
-In the sections below we will walk through how to do this. For the meantime, just note that you always have one default branch, and can have as many other branches as needed.
-
+Nas seções a seguir vamos mostrar como fazer isso. Por enquanto, apenas observe que você sempre tem uma ramificação padrão, e pode ter tantos outros ramos quanto for preciso.
 
 <a name="version-control" id="version-control"></a>
 ## Why Version Control
