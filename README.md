@@ -67,16 +67,16 @@ Nas seções a seguir vamos mostrar como fazer isso. Por enquanto, apenas observ
 <a name="version-control" id="version-control"></a>
 ## Why Version Control
 
-##### Code Base History
-Git can provide you with a complete history of every commit made on a project. Benefits include:
+##### Histórico do Código Base
+Git pode lhe fornecer um histórico completo de cada commit feito em um projeto. Os seus benefícios incluem:
 
-* Being able to see what differences to the file system you have made before you have commited.
+* Ser capaz de ver quais as diferenças nos arquivos do sistema você fez antes de você ter commitado.
 
-* Being able to see what differences exist between commits
+* Ser capaz de ver quais as diferenças existentes entre commits.
 
-* Being able to move between different commits (or places in time). This is especially useful if something became broken while you were working on it, and you need to start again.
+* Ser capaz de se mover entre diferentes commit (ou lugares no tempo). Isto é especialmente útil se algo ficou quebrado enquanto você estava trabalhando nisso e você precisa começar de novo .
 
-In the introduction section of this tutorial, we won't be able to cover all these benefits in practise extensively. However, we will aim to give you all the information you will need to know by the end.
+Na seção de introdução deste tutorial, não vamos ser capazes de cobrir todos estes benefícios na prática extensivamente. No entanto, pretendemos dar-lhe toda a informação que você precisa saber até o final.
 
 ##### Multiple people working on the same files
 Version control makes this possible. If you work on one file, and then I work on the same file at the same time when we want to combine our changes git allows us to keep both versions save that we can compare. This allows us to integrate our changes more swiftly.
@@ -112,10 +112,10 @@ The next step is to clone the forked version of this repository. On the main pag
 Then use the command in your terminal:
 
 ```
-git clone https://github.com/NataliaLKB/learn-git-basics.git
+git clone https://github.com/Grrrls/learn-git-basics.git
 ```
 
-You should now be ablle to redirect into the directory just created using the command line.
+You should now be able to redirect into the directory just created using the command line.
 
 Next, it is good to get in the habit after each command to use `git status`. Let us use it now.
 
