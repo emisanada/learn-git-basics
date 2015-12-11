@@ -92,24 +92,24 @@ Um bom fluxo de trabalho com o git sempre envolve ramificaçôes. Ter ramos ajud
 
 Antes de começarmos, se você não tem uma conta no Github, por favor crie uma.
 
-Next please fork this repository.
+Agora, por favor, faça o 'fork' (a "bifurcação) deste repositório.
 
 ![fork button on github](./img/fork.png)
 
-On your local machine, please make sure you have git installed.
+Na sua máquina local, por favor tenha certeza que você tenha o git instalado.
 
-If you are using a mac, the easiest thing is to install git with [Homebrew](http://brew.sh/). Want to learn more about Homebrew? Check out this [tutorial](http://computers.tutsplus.com/tutorials/homebrew-demystified-os-xs-ultimate-package-manager--mac-44884).
+Se você está usando um Mac, a maneira mais fácil é instalar o git com [Homebrew](http://brew.sh/). Quer saber mais sobre o Homebrew? Confira só esse link [tutorial](http://computers.tutsplus.com/tutorials/homebrew-demystified-os-xs-ultimate-package-manager--mac-44884).
 
-Windows use http://git-scm.com/download/win. and Linux install using these instructions http://git-scm.com/download/linux.
+Para Windows use http://git-scm.com/download/win. e para Linux instale usando estas instruções http://git-scm.com/download/linux.
 
 
 <a name="getting-started" id="getting-started"></a>
-### Getting Started
-The next step is to clone the forked version of this repository. On the main page of the repo, copy the url shown here:
+### Começando
+O próximo passo é clonar a versão bifurcada (forked) deste repositório. Na página principal do repositório, copie a URL mostrada aqui:
 
 ![where to copy url on github](./img/git-clone.png)
 
-Then use the command in your terminal:
+E então use o comando no seu terminal:
 
 ```
 git clone https://github.com/Grrrls/learn-git-basics.git
