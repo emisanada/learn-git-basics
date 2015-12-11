@@ -65,7 +65,7 @@ Enquanto você trabalha em um repositório git o primeiro ramo em que está gera
 Nas seções a seguir vamos mostrar como fazer isso. Por enquanto, apenas observe que você sempre tem uma ramificação padrão, e pode ter tantos outros ramos quanto for preciso.
 
 <a name="version-control" id="version-control"></a>
-## Why Version Control
+## Por que o Controle de Versionamento
 
 ##### Code Base History
 Git can provide you with a complete history of every commit made on a project. Benefits include:
@@ -78,19 +78,19 @@ Git can provide you with a complete history of every commit made on a project. B
 
 In the introduction section of this tutorial, we won't be able to cover all these benefits in practise extensively. However, we will aim to give you all the information you will need to know by the end.
 
-##### Multiple people working on the same files
+##### Multiplas pessoas trabalhando nos mesmos arquivos
 Version control makes this possible. If you work on one file, and then I work on the same file at the same time when we want to combine our changes git allows us to keep both versions save that we can compare. This allows us to integrate our changes more swiftly.
+O controle de versão torna isso possível. Se você trabalhar em um arquivo e eu trabalhar no mesmo arquivo ao mesmo tempo, quando quisermos combinar as nossas mudanças o git nos permitirá manter ambas as versões salvas para podermos compará-las. Isso nos permite integrar as nossas mudanças mais rapidamente.
 
-We will practice with this later.
+Nós vamos praticar isso mais a frente.
 
-##### Branching
-A good work flow with git always involves branching. Having branches helps organise the code, and keep track of who is working on what.
-
+##### Ramificações (Branching)
+Um bom fluxo de trabalho com o git sempre envolve ramificaçôes. Ter ramos ajuda a organizar o código e manter o controle de quem está trabalhando em quê.
 
 <a name="tutorial" id="tutorial"></a>
 ## Tutorial
 
-Before we begin, if you don't have a Github account, please get one.
+Antes de começarmos, se você não tem uma conta no Github, por favor crie uma.
 
 Next please fork this repository.
 
