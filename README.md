@@ -155,7 +155,7 @@ git checkout new-branch
 git branch
 ```
 
-Now you can see you are on that branch. Go back to master and now we are going to delete `new-branch`.
+Agora você pode ver que você está naquele ramo. Volte para o master e agora vamos excluir `new-branch`.
 
 ```
 git checkout master
@@ -163,26 +163,27 @@ git branch -d new-branch
 git branch
 ```
 
-As you can see, your branch is now gone.
+Como você pode ver, seu ramo sumiu.
 
 
 <a name="changes" id="changes"></a>
-### Making Changes
-Now it is time to make some changes in the project. Make yourself a new branch named `update-cheatsheet` and go onto it. open up the file cheatsheet.md in your favourite text editor.
+### Fazendo Mudanças
+Agora é hora de fazer algumas mudanças no projeto. Faça um novo ramo chamado `update-cheatsheet` e vá para ele. Abra o aruivo cheatsheet.md no seu editor de texto preferido.
 
 As you can see, this contains all the commands you will need to begin using git. Continue to add to it all the new commands you learn. To begin, here is a command that both creates a branch, and moves you onto it at the same time:
+Como você pode ver, este contém todos os comandos que você precisa para começar a usar git. Continue adicionando nele todos os novos comandos que você aprender. Para começar, aqui é um comando que tanto cria uma filial quanto te move para ele ao mesmo tempo:
 
 ```
 git checkout -b <new branch name>
 ```
 
-Add that command, and its description to cheatsheet.md and save it. Now in your terminal:
+Adicione esse comando e a sua descrição para cheatsheet.md e salve-o. Agora em seu terminal:
 
 ```
 git status
 ```
 
-You will see something like this:
+Você verá algo assim:
 
 ![git status example](./img/git-status.png)
 
@@ -193,14 +194,14 @@ git add cheatsheet.md
 git status
 ```
 
-Now you can see the file name has turned green. Now to commit your changes.
+Agora você pode ver que o nome do arquivo ficou verde. Agora, para confirmar as suas alterações:
 
 ```
 git commit -m 'adding new command in the cheatsheet'
 git status
 ```
 
-The message could be anything, but it is best to make it something that describes what you just did. You can also use the command `git commit` without `-m '<message'`, however beware that it will send you to a text editor called Vim. Though learning how to use Vim is important, it isn't necessary at this stage. Typing `:q` straight away will get you out of it and commit again with a message.
+A mensagem pode ser qualquer coisa, mas o melhor é fazer algo que descreva o que você fez. Você também pode usar o comando `git commit` sem `-m '<message'`, no entanto cuidado que ele vai mandar você para um editor de texto chamado Vim. Embora aprender a usar o Vim é importante, não é necessário nesta fase. Digitando `:q` vai te tirar dela e commitar novamente com uma mensagem.
 
 
 <a name="merging" id="merging"></a>
