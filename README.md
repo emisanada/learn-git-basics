@@ -115,34 +115,36 @@ E então use o comando no seu terminal:
 git clone https://github.com/Grrrls/learn-git-basics.git
 ```
 
-You should now be able to redirect into the directory just created using the command line.
+Agora você deve ser capaz de redirecionar para o diretório recém criado usando a linha de comando.
 
-Next, it is good to get in the habit after each command to use `git status`. Let us use it now.
+Em seguida, é bom adquirir o hábito de, depois de cada comando, utilizar o `git status`. Vamos usá-lo agora.
 
 ```
 git status
 ````
 
-Now check which branch you are on:
+Agora, verifique em qual ramo (branch) você está:
 
 ```
 git branch
 ```
 
-You should only see `master` which is the default branch in this repo.
+Você só deve ver `master` que é o ramo padrão neste repositório.
 
-When there are other branches in your repo the green branch is the current one you are on.
+Quando existirem outros ramos da sua repo o ramo verde é o atual, o que você se encontra.
 
 
 <a name="branching" id="branching"></a>
-### Branching
-The next step is to create your own branch to work on. try this:
+### Ramificação (Branching)
+O próximo passo é criar seu próprio ramo de trabalho, tente o seguinte:
 
 ```
 git branch new-branch
 ```
 
 It is best to try to name your branches as specific as possible, so not to confuse them with any others. There are many naming conventions out there for branches, but for this week simply try to name them off of a feature. For example (`navbar-collapse` or `sass-file-structure`). To see all your branches:
+
+É melhor tentar nomear seus ramos tão específico quanto possível, de modo a não confundi-los com os outros. Há muitas convenções de nomenclatura para ramos por ai, mas para esta semana simplesmente tente nomeá-los a partir de um recurso. Por exemplo (`navbar-collapse` ou `sass-file-structure`). Para ver todos os seus ramos:
 
 ```
 git branch
