@@ -79,7 +79,6 @@ Git pode lhe fornecer um histórico completo de cada commit feito em um projeto.
 Na seção de introdução deste tutorial, não vamos ser capazes de cobrir todos estes benefícios na prática extensivamente. No entanto, pretendemos dar-lhe toda a informação que você precisa saber até o final.
 
 ##### Multiplas pessoas trabalhando nos mesmos arquivos
-Version control makes this possible. If you work on one file, and then I work on the same file at the same time when we want to combine our changes git allows us to keep both versions save that we can compare. This allows us to integrate our changes more swiftly.
 O controle de versão torna isso possível. Se você trabalhar em um arquivo e eu trabalhar no mesmo arquivo ao mesmo tempo, quando quisermos combinar as nossas mudanças o git nos permitirá manter ambas as versões salvas para podermos compará-las. Isso nos permite integrar as nossas mudanças mais rapidamente.
 
 Nós vamos praticar isso mais a frente.
@@ -142,15 +141,13 @@ O próximo passo é criar seu próprio ramo de trabalho, tente o seguinte:
 git branch new-branch
 ```
 
-It is best to try to name your branches as specific as possible, so not to confuse them with any others. There are many naming conventions out there for branches, but for this week simply try to name them off of a feature. For example (`navbar-collapse` or `sass-file-structure`). To see all your branches:
-
 É melhor tentar nomear seus ramos tão específico quanto possível, de modo a não confundi-los com os outros. Há muitas convenções de nomenclatura para ramos por ai, mas para esta semana simplesmente tente nomeá-los a partir de um recurso. Por exemplo (`navbar-collapse` ou `sass-file-structure`). Para ver todos os seus ramos:
 
 ```
 git branch
 ```
 
-As you can see, you have created your branch, but are not currently on it. To navigate onto it please:
+Como você pode ver, você criou o seu ramo, mas não estão atualmente nele. Para navegar para ele digite:
 
 ```
 git checkout new-branch
@@ -172,7 +169,6 @@ Como você pode ver, seu ramo sumiu.
 ### Fazendo Mudanças
 Agora é hora de fazer algumas mudanças no projeto. Faça um novo ramo chamado `update-cheatsheet` e vá para ele. Abra o aruivo cheatsheet.md no seu editor de texto preferido.
 
-As you can see, this contains all the commands you will need to begin using git. Continue to add to it all the new commands you learn. To begin, here is a command that both creates a branch, and moves you onto it at the same time:
 Como você pode ver, este contém todos os comandos que você precisa para começar a usar git. Continue adicionando nele todos os novos comandos que você aprender. Para começar, aqui é um comando que tanto cria uma filial quanto te move para ele ao mesmo tempo:
 
 ```
@@ -189,7 +185,7 @@ Você verá algo assim:
 
 ![git status example](./img/git-status.png)
 
-You will see your changes in red. now we need to add them to the git staging area. Doing this is like telling git to pay attention to these files, and start tracking the changes. To do this write this command:
+Você verá as alterações em vermelho. Agora precisamos adicioná-las para a área de git 'staging'. Fazer isso é como dizer ao git para prestar atenção a esses arquivos e começar a monitorar as suas alterações. Para fazer este comando este digite:
 
 ```
 git add cheatsheet.md
