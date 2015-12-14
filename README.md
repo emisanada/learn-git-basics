@@ -142,9 +142,7 @@ O próximo passo é criar seu próprio ramo de trabalho, tente o seguinte:
 git branch new-branch
 ```
 
-It is best to try to name your branches as specific as possible, so not to confuse them with any others. There are many naming conventions out there for branches, but for this week simply try to name them off of a feature. For example (`navbar-collapse` or `sass-file-structure`). To see all your branches:
-
-É melhor tentar nomear seus ramos tão específico quanto possível, de modo a não confundi-los com os outros. Há muitas convenções de nomenclatura para ramos por ai, mas para esta semana simplesmente tente nomeá-los a partir de um recurso. Por exemplo (`navbar-collapse` ou `sass-file-structure`). Para ver todos os seus ramos:
+É muito bom tentar nomear seus ramos tão específico quanto possível, de modo a não confundi-los com os outros. Há muitas convenções de nomenclatura para ramos por ai, mas para esta semana simplesmente tente nomeá-los a partir de um recurso. Por exemplo (`navbar-collapse` ou `sass-file-structure`). Para ver todos os seus ramos:
 
 ```
 git branch
@@ -172,7 +170,6 @@ Como você pode ver, seu ramo sumiu.
 ### Fazendo Mudanças
 Agora é hora de fazer algumas mudanças no projeto. Faça um novo ramo chamado `update-cheatsheet` e vá para ele. Abra o aruivo cheatsheet.md no seu editor de texto preferido.
 
-As you can see, this contains all the commands you will need to begin using git. Continue to add to it all the new commands you learn. To begin, here is a command that both creates a branch, and moves you onto it at the same time:
 Como você pode ver, este contém todos os comandos que você precisa para começar a usar git. Continue adicionando nele todos os novos comandos que você aprender. Para começar, aqui é um comando que tanto cria uma filial quanto te move para ele ao mesmo tempo:
 
 ```
@@ -189,7 +186,7 @@ Você verá algo assim:
 
 ![git status example](./img/git-status.png)
 
-You will see your changes in red. now we need to add them to the git staging area. Doing this is like telling git to pay attention to these files, and start tracking the changes. To do this write this command:
+Você verá as alterações em vermelho. Agora precisamos adicioná-las para a área de git 'staging'. Fazer isso é como dizer ao git para prestar atenção a esses arquivos e começar a monitorar suas alterações. Para fazer este comando este digite:
 
 ```
 git add cheatsheet.md
