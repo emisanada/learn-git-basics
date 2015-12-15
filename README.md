@@ -278,36 +278,35 @@ Afterwards git status, add the files in red, commit, and push. Then make a pull 
 
 
 <a id="changing-file-structure" name="changing-file-structure"></a>
-### Changing File Structure
-Imagine you're working on a project that's getting bigger in size. As new files are added, it makes sense to group some of them into folders. For example, it's a good idea to keep all CSS files in one folder, JS files in another etc.
+### Mudando a Estrutura de Arquivos
+Imagine que você está trabalhando em um projeto que está ficando cada vez maior em tamanho. À medida que novos arquivos são adicionados, faz sentido para agrupar alguns em pastas. Por exemplo, é uma boa idéia para manter todos os arquivos CSS em uma pasta e os arquivos JS em outra etc.
 
-Let's assume you've just cloned a repository structured like this:
+Vamos supor que você acabou de clonar um repositório estruturado assim:
 ```
 index.html
 stylesheet.css
 script.js
 ```
 
-However, you'd prefer to split these into folders like:
+No entanto, você prefere separá-los em pastas assim:
 ```
 css/stylesheet.css
 js/script.js
 index.html
 ```
 
-In order to achieve this, `git mv` command comes in handy. Using it to move files *ensures preserving history* of the files you work on. To change file structure like above (and create new folders at the same time) use command:
+A fim de conseguir isso, o commando `git mv` vem a calhar. Usá-lo para mover arquivos *garante preservação do histórico* dos arquivos que você trabalha. Para alterar a estrutura de arquivos como acima (e criar novas pastas ao mesmo tempo) use o comando:
 ```
 mkdir css && git mv stylesheet.css ./css
 mkdir css && git mv script.js ./js
 ```
-(This glues `mkdir` and `git mv` commands together with `&&` operator).
+(Esse trecho junta o `mkdir` e o `git mv` usando o operador `&&`).
 
-Basic function usage is
+A utilização da função básica é
 ```
 git mv <source> <destination>
 ```
-The command also takes optional parameters. To find out more, refer to [documentation](http://git-scm.com/docs/git-mv).
-
+O comando também usa parâmetros opcionais. Para saber mais, consulte [documentation](http://git-scm.com/docs/git-mv).
 
 
 <a name="github-flow" id="github-flow"></a>
