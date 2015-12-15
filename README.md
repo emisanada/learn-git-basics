@@ -334,7 +334,8 @@ Git para a colaboração visa os alunos da segunda semana do curso, ou aqueles q
 ![commit hash picture](./img/commit-hash.png)
 
 ##### HEAD
-Simply put, the HEAD is a reference to a commit object. For more information see: http://eagain.net/articles/git-for-computer-scientists/
+Simplificando, a HEAD é uma referência a um commit object. Para mais informações consulte:
+http://eagain.net/articles/git-for-computer-scientists/
 
 
 <a name="timeline" id="timeline"></a>
