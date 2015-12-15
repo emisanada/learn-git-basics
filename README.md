@@ -203,22 +203,23 @@ A mensagem pode ser qualquer coisa, mas o melhor é fazer algo que descreva o qu
 
 
 <a name="merging" id="merging"></a>
-### Merging Changes with Master
-Now that you have made and committed your changes, it is time to merge your branch with master. Even though you are not working with anyone else on this repository, it is always good practice to make sure your current branch is completely up to date with master. Imagine if you were working with a team. Someone else has already pushed up changes to master. If that someone else and yourself have changed the same file, it is quite likely that your changes will not be compatible with theirs. To avoid this, you want to merge your changes with theirs to avoid future problems. Checkout back onto master and pull down. These commands look like this:
+### Integrando as Alterações com o Master
+Agora que você fez e commitou as alterações, é hora de integrar (merge) o seu ramo com o master. Mesmo que você não esteja trabalhando com mais ninguém neste repositório, é sempre uma boa prática se certificar de que o seu ramo atual está completamente atualizado com o master. Imagine se você estivesse trabalhando com uma equipe e alguém já fez um push no master. Se você e esse alguém tiverem alterado o mesmo arquivo, é bastante provável que as suas alterações não serão compatíveis com a deles. Para evitar isso, você mescla as suas alterações com a deles para evitar problemas futuros. Faça o chekout de volta para o master e de um pull. Estes comandos são assim:
 
 ```
 git checkout master
 git pull origin master
 ```
 
-Pulling down means that you are getting any recent changes from the remote master branch which is located in Github. Next go back to your branch (`update-cheatsheet`)  and merge with master.
+Fazer um Pull significa que você está recebendo todas as mudanças recentes do branch master remoto, que está localizado no Github. Em seguida volte ao seu ramo (`update-cheatsheet`) e mesclar (merge) com o master.
 
 ```
 git merge master
 ```
 
-Even though in this situation there isn't any changes to merge, it is best to get in the habit on going through these steps in your work flow. Merging like this means taking any possible changes in master and merging them with the branch you are currently on.
-After you merge with master you have to push your changes to the remote repo (Github).
+Mesmo que nesta situação não há qualquer alteração para integrar, o melhor é adquirir o hábito de passar por essas etapas em seu fluxo de trabalho. Integrar assim significa tomar quaisquer eventuais alterações no master e mescla-las com o ramo que você está atualmente.
+
+Após mesclar com o master que você tem que fazer um push das alterações no repositório remoto (Github).
 
 ```
 git push origin update-cheatsheet
