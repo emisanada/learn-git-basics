@@ -310,21 +310,21 @@ O comando também usa parâmetros opcionais. Para saber mais, consulte [document
 
 
 <a name="github-flow" id="github-flow"></a>
-## Github Flow
-Github flow is what most teams at Founders & Coders follow. It is simple and effective.
+## Fluxo Github
+Fluxo Github é o que a maioria das equipes na Founders & Coders segue. É simples e eficaz.
 
-For a visual guide, and some helpful tips:
+Para um guia visual e algumas dicas úteis:
 https://guides.github.com/introduction/flow/
 
-To find out why Github uses Github flow:
+Para descobrir o por quê o Github utiliza o fluxo Github:
 http://scottchacon.com/2011/08/31/github-flow.html
 
 
 
 <a name="git-collaboration" id="git-collaboration"></a>
-# Git for Collaboration
+# Git para a Colaboração
 
-Git for Collaboration is aimed at the second week students of the course, or those that have mastered the first section. Even though most of the advice in this tutorial will take a while to digest - and practise is essential. A good goal is to understand all these concepts, and implement at least most of these tips in your collaborative projects before finishing your time as a student at Founders & Coders.
+Git para a colaboração visa os alunos da segunda semana do curso, ou aqueles que dominaram a primeira seção. Mesmo que a maioria dso conselhso neste tutorial vai demorar um pouco para digerir - e prática é essencial. Uma boa meta é compreender todos estes conceitos, e implementar, pelo menos, a maioria dessas dicas em seus projetos de colaboração antes de terminar o seu tempo como estudante da Founders & Coders.
 
 
 <a name="further-terminology" id="further-terminology"></a>
