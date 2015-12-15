@@ -225,56 +225,56 @@ Após mesclar com o master que você tem que fazer um push das alterações no r
 git push origin update-cheatsheet
 ```
 
-When you pull or push you are referring to your remote repo, or origin. In the example of `git push origin <branch name>` you are pushing your local changes to a remote branch that you are both creating, and naming. Since you are creating this branch from your local one it makes things much simpler if you use the same name for your remote branch, as your local one.
+Quando você fizer o pull ou push você está se referindo ao seu repo remoto, ou origem. No exemplo `git push origin <nome do ramo>` você está dando um push nas suas alterações locais para um ramo remoto que vocês dois estão criando e nomeando. Como você está criando este ramo a partir do seu local é muito mais simples usar o mesmo nome tanto para o local quanto para o remoto.
 
-For more information on pushing, see [here](https://help.github.com/articles/pushing-to-a-remote/)
+Para mais informações em push veja [here](https://help.github.com/articles/pushing-to-a-remote/)
 
-Go to your browser and open up this repository in github. Press the branches button
+Vá para o seu navegador e abra este repositório no github. Pressione o botão de branch.
 
 ![branches button in gitub](./img/github-branch.png)
 
-And then make a pull request  to master
+E, em seguida, faça uma solicitação (Pull request) para o master.
 
 ![viewing all your branches on github](./img/view-github-branches.png)
 
-Afterwards you will see a merge button. Press it and delete your branch. Now your remote branch master is completely up to date with your latest changes.
+Depois disso, você verá um botão de integração (merge). Pressione-o e exclua o seu ramo. Agora, o seu master remoto está completamente atualizado com as suas últimas alterações.
 
-Return to your terminal and navigate to your local master branch. Pull down. You will see your branch update (fast-forward). Delete the branch `update-cheatsheet`.
+Volte para o seu terminal e navegue para o seu ramo master local. Faça um Pull. Você vai ver o seu ramo atualizar (fast-forward). Exclua o ramo `update-cheatsheet`.
 
 
 <a name="conflicts" id="conflicts"></a>
-### Merge Conflicts
-Check all the branches on this repository, even the remote ones. To do this use this command:
+### Conflitos de Integração
+Verifique todos os ramos sobre deste repositório, mesmo os remotos. Para fazer este comando este uso :
 
 ```
 git branch -a
 ```
 
-You should see something like this:
+Você deve ver algo assim:
 
 ![see all branches in github](./img/git-branch-a.png)
 
-Run the command:
+Execute o comando:
 
 ```
 git checkout merging-experiments
 ```
 
-Open up the git cheatsheet, as you can see there are some differences between this and master. To see these differences use command:
+Abra o git cheatsheet, como você pode ver, existem algumas diferenças entre este e master. Para ver essas diferenças use o comando:
 
 ```
 git diff master
 ```
 
-The differences in green and the additions on this branch, that don't exist on master. The red are the things that are on master, that don't exist on this branch.
+As diferenças em verde são as adições neste ramo, que não existem no master. As diferenças em vermelho são as coisas que estão no master e não existem neste ramo.
 
-Merge with master. You should have a git conflict that looks something like this:
+Integre com o mestre. Você deve ter um conflito git que é algo assim:
 
 ![git merge conflict example](./img/merge-conflict.png)
 
-Do you see the lines at the top. The first section is labelled `HEAD` those are from this branch. The next section is from master. Delete the lines, and any other code you want until the cheatsheet looks like how you want it to look.
+Você vê as linhas no topo? A primeira seção é rotulada `HEAD`, essa é a partir deste ramo. A próxima seção é do master. Exclua as linhas e qualquer outro código que você queira até que o cheatsheet pareça como você deseja.
 
-Afterwards git status, add the files in red, commit, and push. Then make a pull request to master like before and merge. Don't forget to update your local master branch, and delete the merged branch in Github and in your local repo. It is good to keep your working environments clean and organised.
+Depois do `git status`, adicione os arquivos em vermelho, commite, e realize o pull. Em seguida, faça uma solicitação (PR) como antes e integre-os. Não se esqueça de atualizar o seu ramo master local e excluir o ramo resultante da integração Github em seu repositório local. É bom para manter seu ambiente de trabalho limpo e organizado.
 
 
 <a id="changing-file-structure" name="changing-file-structure"></a>
