@@ -395,23 +395,23 @@ it is up to date with master locally.
 
 
 <a name="commits" id="commits"></a>
-## Committing
+## Commitando
 
 
 <a name="when-commit" id="when-commit"></a>
-### When should you commit?
+### Quando você deve Commitar?
 
-You should aim each commit to be a "safe" version of the project. This means that if you checkout to any commit in your timeline, that should reflect where the project was at that point, and be functional.
+Você deve visar para que cada commit seja uma versão "segura" do projeto. Isto significa que se você fizer o checkout para qualquer commit em sua linha do tempo, ele deve refletir onde o projeto estava nesse ponto e deve ser funcional .
 
-Given that, when you commit is very important. I have heard two very useful guidelines.
+Tendo em conta, que quando você commita é muito importante, tenho ouvido duas orientações muito úteis.
 
-The first, is that as you complete the task assigned to you, you make several commits at different times during that task. In the end you merge all those commits together to make one very informative commit of that task. I will talk about ways to merge commits together in a later section.
+A primeira é que, conforme você for completando a tarefa, você fará vários commits em diferentes momentos durante a tarefa. No final você junta todos os commits para fazer um commit muito informativo dessa tarefa. Vou falar sobre maneiras de integrar commits juntos em uma seção posterior.
 
-The second method is you work through your task and complete it before adding or committing at all. Then you check the status of the repo and see all the files you have changed. The next step is selectively adding and committing
+O segundo método é o que você trabalha através da sua tarefa e a concluí antes de adicioná-la ou commita-la. Em seguida, você verificar o status do repo e olha todos os arquivos que foram alterados. O próximo passo é adicionar e commitar seletivamente.
 
-Through my research I have come across many different methodologies, and ultimately you should try to do what seems the most natural to you. I use both of these methodologies depending on the extent of the task before me. The best thing is to always keep in mind that you and your colleagues will inevitably need to go back to your commits and it will help everyone if commits are aptly named.
+Através da minha pesquisa eu encontrei muitas metodologias diferentes e, acima de tudo, você deve tentar fazer o que parece ser o mais natural para você. Eu uso ambas as metodologias, dependendo da extensão da tarefa. A melhor coisa é manter sempre em mente o que você e seus colegas vão, inevitavelmente, precisar voltar para seus commits e vai ajudar a todos se os commits estiverem nomeados apropriadamente.
 
-Likewise, even in pull requests, you must aim to make your commits a clear and concise summary of what tasks where completed on that branch. That way the person reviewing your pull request understands what they will be reviewing before looking at the code itself.
+Da mesma forma, mesmo em Pull Requests, você deve visar fazer dos seus commits um resumo claros e concisos de quais tarefas foram concluídas em que ramo. Dessa forma, a pessoa que rever a sua solicitação entenderá o que eles irão rever antes mesmo de olhar para o próprio código.
 
 
 <a name="commit-message" id="commit-message"></a>
