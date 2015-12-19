@@ -339,19 +339,19 @@ http://eagain.net/articles/git-for-computer-scientists/
 
 
 <a name="timeline" id="timeline"></a>
-## The Timeline
+## A Linha do Tempo (Timeline)
 
-As discussed previously git stores all the commits on the project. You can use them as a timeline and travel back and forth in time. This section shows you a simple way of doing that which will come in handy as you work in projects with your team.
+Como discutido anteriormente o Git armazena todos os commits no projeto. Você pode usá-los como um cronograma e viajar para qualquer ponto no tempo. Esta seção vai te mostrar uma forma simples de trabalhar em projetos com sua equipe.
 
-Before we start make sure you have a terminal open located at the local copy of this repo. The same one that was used for the first tutorial is essential. Make a new branch called `timeline-practice` and navigate onto it.
+Antes de começar verifique se você está com um terminal aberto na cópia local deste repo. O mesmo que foi utilizado para o primeiro tutorial. Faça um novo ramo chamado `timeline-practice` e navegar nele.
 
-Step 1) Make a new directory in the project via the command line. Lets call it `time`.
+Passo 1) Crie um novo diretório no projeto através da linha de comando. Vamos chamá-lo `time`.
 
 ```
 mkdir time
 ```
 
-Step 2) Also make a new file in that directory and call it whatever you like. A simple text file should be fine. After you are done, open it.
+Passo 2) Faça também um novo arquivo no diretório e chame-o do que quiser. Um arquivo de texto simples deve suficiente. Depois que você terminar, abra-o.
 
 ```
 touch time/newfile.txt
