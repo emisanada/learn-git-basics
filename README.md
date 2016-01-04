@@ -358,21 +358,22 @@ touch time/newfile.txt
 open time/newfile.txt
 ```
 
-Write the current time stamp, and a short message to your future self. Save it. Next add and commit your changes. Your commit message should be descriptive of what you just did.
-Repeat step 2 twice more, deleting the previous time and message, and adding the new time and a different message. Make sure you add and commit each time. Make sure your commit messages are unique, and you can tell which one was first, second, and third.
-Step 3) Next type in this command:
+Escreva a data e hora atual e uma mensagem curta para o seu futuro eu. Salve isso. Em seguida adicione e commite as suas mudanças. Sua mensagem de commit deve ser uma descrição do que você acabou de fazer.
+Repita o passo 2 mais duas vezes, excluindo a mensagem de tempo anterior e adicionando uma mensagem de tempo diferente. Certifique-se de adicionar e commitar em cada vez. Certifique-se de suas mensagens de commit são únicas e que você poderá dizer qual foi a primeira, a segunda e a terceira.
+
+Passo 3) Em seguida digite o comando:
 
 ```
 git log
 ```
 
-You should see something like this:
+Você deve ver algo assim:
 
 ![git log example](./img/git-log.png)
 
+Escolha o segundo commit de tempo que você fez e copie o hash. Use `q` para sair do log e faça o checkout para o commit.
 
-Pick the second time commit that you made and copy the hash. Use `q` to exit the log and checkout to your commit.
-Step 4) 
+Passo 4) 
 ```
 git checkout <commit hash>
 git status
@@ -380,10 +381,9 @@ git status
 
 ![git detached head warning](./img/detached-head.png)
 
+Como você pode ver após você checkout será exibida uma mensagem informando o que você está em um 'detached HEAD', o que significa a sua não estão trabalhando em qualquer ramo atual. Abra o arquivo na pasta de tempo e olhe para a mensagem e para o tempo. Deve ser o segundo que você escreveu.
 
-As you can see after you checkout a message appears informing your that you are in a 'detached HEAD' state, meaning your are not working on any current branch. Open up the file in the time folder and look at the time and message. It should be the 2nd one that you wrote.
-
-Repeat step 4, and use the hash of the first time commit you made. Open the file and see that the time of your first commit, and your message to yourself. This is going back in time. You can easily go back as far as you like in the project and see older iterations of this tutorial!
+Repita o passo 4, e use o hash do primeiro commit que você fez. Abra o arquivo e veja que o tempo do seu primeiro commit, e sua mensagem para si mesmo. Isto vai voltar no tempo. Você pode facilmente ir para trás tanto o quanto você gostaria no projeto e ver iterações anteriores deste tutorial!
 
 Next, we should go back to the future. The quickest and easiest way is to checkout onto the`timeline-practise` branch and you should be back up to date. However, you can also navigate back to the latest commit from where you are now. First, check `git log`. You will notice your latest commits are no longer on there. This is where another command is handy. `git reflog` is best used to find recently "lost" commits. you should see something like:
 
