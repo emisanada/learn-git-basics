@@ -385,13 +385,12 @@ Como você pode ver após você checkout será exibida uma mensagem informando o
 
 Repita o passo 4, e use o hash do primeiro commit que você fez. Abra o arquivo e veja que o tempo do seu primeiro commit, e sua mensagem para si mesmo. Isto vai voltar no tempo. Você pode facilmente ir para trás tanto o quanto você gostaria no projeto e ver iterações anteriores deste tutorial!
 
-Next, we should go back to the future. The quickest and easiest way is to checkout onto the`timeline-practise` branch and you should be back up to date. However, you can also navigate back to the latest commit from where you are now. First, check `git log`. You will notice your latest commits are no longer on there. This is where another command is handy. `git reflog` is best used to find recently "lost" commits. you should see something like:
+Em seguida, devemos voltar para o futuro. A maneira mais rápida e mais fácil é fazer o checkout para o ramo `timeline-practise` e você deve estar atualizado. No entanto, você também pode navegar de volta para o último commit a partir de onde você está agora. Primeiro, verifique o `git log`. Você vai notar que os seus últimos commit não estão mais lá. Este é o lugar onde outro comando é útil. `git reflog` usado para encontrar commits recentemente "perdido", você deve ver algo como:
 
 ![git reflog example](./img/git-reflog.png)
 
-Find the commit name of the last commit you did (the third time that you recorded) and copy the short hash in yellow. Checkout back to that commit, and `git diff timeline-practise` there should be no difference.
-Checkout back to `timeline-practise` and push up to Github to make a pull request to master. Make sure you first check that
-it is up to date with master locally.
+Encontre o nome do último commit que você fez (a terceira vez que você gravou) e copie o hash curto em amarelo. Volte para esse commit e use o `git diff timeline-practise`. Não deve haver nenhuma diferença.
+Volte para o `timeline-practise` e faça o push para o Github para fazer uma Pull Request no master. Certifique-se de verificar primeiro que ele está atualizado com o master localmente.
 
 
 <a name="commits" id="commits"></a>
